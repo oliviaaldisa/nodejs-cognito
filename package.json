@@ -1,0 +1,34 @@
+{
+  "name": "api-jastip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "nyc mocha"
+  },
+  "author": "olivia",
+  "license": "ISC",
+  "dependencies": {
+    "amazon-cognito-identity-js": "^3.0.7",
+    "await-to-js": "^2.1.1",
+    "aws-sdk": "^2.400.0",
+    "body-parser": "^1.18.3",
+    "chai-http": "^4.2.1",
+    "cognito-express": "^2.0.14",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "jwt-decode": "^2.2.0",
+    "morgan": "^1.9.1",
+    "node-fetch": "^2.3.0",
+    "parse-error": "^0.2.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.10",
+    "nyc": "^13.3.0"
+  }
+}
